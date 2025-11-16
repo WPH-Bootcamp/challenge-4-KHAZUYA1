@@ -106,7 +106,7 @@ describe("To-Do List Functions", () => {
     });
   });
 
-  describe("runTodoApp", () => {
+ describe("runTodoApp", () => {
     it("should handle all command variants", () => {
       const mockExit = jest.spyOn(process, "exit").mockImplementation(() => {});
 
